@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.subdag import SubDagOperator
 from datetime import datetime
-from subdags.subdag_parallel_dag import subdag_parallel_dag
+from subdags import subdag_parallel_dag
 
 # args that must be common to all the tasks of the DAG
 default_args = {
