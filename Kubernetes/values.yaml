@@ -34,10 +34,10 @@ gid: 0
 airflowHome: /opt/airflow
 
 # Default airflow repository -- overrides all the specific images below
-defaultAirflowRepository: apache/airflow
+defaultAirflowRepository: my-airflow-custom
 
 # Default airflow tag to deploy
-defaultAirflowTag: "2.0.2"
+defaultAirflowTag: "1.0.0"
 
 # Airflow version (Used to make some decisions based on Airflow Version being deployed)
 airflowVersion: "2.0.2"
