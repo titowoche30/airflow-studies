@@ -966,7 +966,7 @@ dags:
     dest: "repo"
     depth: 1
     # the number of consecutive failures allowed before aborting
-    maxFailures: 3
+    maxFailures: 0
     # subpath within the repo where dags are located
     # should be "" if dags are at repo root
     subPath: "Kubernetes/dags"
